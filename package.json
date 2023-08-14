@@ -1,8 +1,8 @@
 {
-  "name": "wb-nodejs-demo",
+  "name": "wb-nodejs",
   "version": "1.0.0",
   "description": "",
-  "main": "hello.js",
+  "main": "cupcakes.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
