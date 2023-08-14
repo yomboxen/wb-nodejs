@@ -1,4 +1,4 @@
-import { prettyPrintCupcake } from './cupcake-printer.js';
+import thePrettyOne, {jaredsFunExtraFunction} from './cupcake-printer.js';
 
 const cupcakes = [
     {
@@ -16,5 +16,7 @@ const cupcakes = [
   ];
   
   for (const cupcake of cupcakes) {
-    console.log(prettyPrintCupcake(cupcake));
+    console.log(thePrettyOne(cupcake));
   }
+
+  console.log(jaredsFunExtraFunction())

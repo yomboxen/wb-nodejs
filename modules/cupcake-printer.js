@@ -11,4 +11,9 @@
     return `${cupcake.flavor}: ${priceFormatter.format(cupcake.price)}`;
   };
 
-  export { prettyPrintCupcake, simplePrintCupcake };
+  const jaredsFunExtraFunction = () => {
+    return 'fun'
+  }
+
+  export default prettyPrintCupcake
+  export { simplePrintCupcake, jaredsFunExtraFunction };
